@@ -1,5 +1,8 @@
 {
-  "organization": "Assumed Techlab World",
-  "name": "Evaluation Fleet",
-  "version": 3
+  "version": 3,
+  "stations": {
+    "techlab-base": {
+      "description": "base techlab image"
+    }
+  }
 }
