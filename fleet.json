@@ -1,5 +1,11 @@
 {
   "organization": "Assumed Techlab World",
   "name": "Evaluation Fleet",
-  "version": 3
+  "version": 3,
+  "groups": {},
+  "machines": {
+    "utm-test-01": {
+      "description": "Local UTM test virtual machine"
+    }
+  }
 }

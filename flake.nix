@@ -11,7 +11,7 @@
   };
 
   outputs = { self, nixpkgs, disko, comin, sextant, ... }: {
-    nixosConfigurations.installer-iso = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.utm-test-01 = nixpkgs.lib.nixosSystem {
       # Use aarch64-linux for Apple Silicon Macs, x86_64-linux for Intel
       system = "aarch64-linux";
       
